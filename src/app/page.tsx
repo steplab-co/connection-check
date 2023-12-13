@@ -24,7 +24,7 @@ export default function Home() {
                 <h1 className={'text-3xl text-center'}>Connection Check</h1>
             </div>
 
-            <div>
+            <div className={'m-auto flex justify-center mt-8'}>
                 <StartButton onClick={startCheck} shouldShow={!checkStarted}/>
             </div>
 
